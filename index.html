@@ -20,157 +20,42 @@
           <img src="./icons/food.png" alt="logo">
         </figure>
       </div>
-      <ul>
-        <li><a href="factura.html">Factura</a></li>
-      </ul>
     </div>
   </nav>
 
   <section class="main-container">
-    <div class="cards-container">
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/6157050/pexels-photo-6157050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-         <figure>
-          <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-        </figure>
-        </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/6157062/pexels-photo-6157062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p>Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-         <figure>
-          <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-        </figure>
-        </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/6156997/pexels-photo-6156997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-         <figure>
-          <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-        </figure>
-        </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/4022083/pexels-photo-4022083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-         <figure>
-          <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-        </figure>
-        </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/5946081/pexels-photo-5946081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-         <figure>
-          <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-        </figure>
-        </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-          <figure>
-            <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
+    <div class="cards-container" id="cards-container">
+      <template id="template-products">
+        <div class="product-card">  
+          <img src="" alt="" class="img">
+          <div class="product-info">
+           <div>
+            <p id="price" class="price">$ </p>
+            <p id="name" class="name"></p>
+            <p id="id" class="id">ID </p>
+           </div>
+           <figure>
+            <button type="submit" data-id=""><img src="./icons/add-to-basket.png" alt=""></button>
           </figure>
+          </div>
         </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/4197444/pexels-photo-4197444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-         <figure>
-          <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-        </figure>
-        </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-          <figure>
-            <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-          </figure>
-        </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-         <figure>
-          <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-        </figure>
-        </div>
-      </div>
-
-      <div class="product-card">  
-        <img src="https://images.pexels.com/photos/1002543/pexels-photo-1002543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" class="product-img">
-        <div class="product-info">
-         <div>
-          <p id="price">$40</p>
-          <p id="name">Manzana</p>
-          <p id="sku">ID 100</p>
-         </div>
-          <figure>
-            <button type="submit"><img src="./icons/add-to-basket.png" alt=""></button>
-          </figure>
-        </div>
-      </div>
-
+      </template>
     </div>
   </section> 
+
+ 
+  <section class="main-table">
+    <tr>
+      <th>ID</th>
+      <td>Manzana</td>
+      <td>1</td>
+      <td>
+          <button class="btn-green"> + </button>
+          <button class="btn-red"> - </button>
+      </td>
+      <td>$ <span>15</span></td>
+    </tr>
+  </section>
 
   <footer>
     <section class="left">
@@ -185,26 +70,6 @@
     </section>
   </footer>
   
-
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.3/firebase-app.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-  
-    // Your web app's Firebase configuration
-    const firebaseConfig = {
-      apiKey: "AIzaSyDzI-s9FrUofId6BokoHYyT6gkUEBGQZY8",
-      authDomain: "generador-de-facturas-d2e16.firebaseapp.com",
-      projectId: "generador-de-facturas-d2e16",
-      storageBucket: "generador-de-facturas-d2e16.appspot.com",
-      messagingSenderId: "500084978367",
-      appId: "1:500084978367:web:6a5771254f0ecae9d84c0a"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-  </script>
 
   <script src="./js/script.js"></script>
 

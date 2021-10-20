@@ -53,31 +53,10 @@ html{
   margin-left: 10px;
 } 
 
-.nav-container ul{
-  list-style: none;
-}
-
-.nav-container li a{
-  text-decoration: none;
-  color: var(--just-white);
-  padding-right: 5px;
-  padding-left: 5px;
-  margin-right: 15px;
-}
-
-.nav-container li a:hover{
-  color: var(--warm-green);
-  background-color: var(--just-white);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 30px;
-}
-
 .img-container{
   width: 100vw;
   height: 85vh;
 }
-
 
 .main-container{
   background-color: var(--light-green);
@@ -130,6 +109,13 @@ html{
   margin-left: 10px;
   margin-bottom: 4px;
   color: var(--warm-black);
+}
+
+.product-info div span{
+  font-size: var(--sm);
+  margin-top: 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
 .product-info div p:nth-child(2){
@@ -188,6 +174,29 @@ footer .right img{
   text-decoration: none;
   color: var(--just-white);
 }
+
+.main-table{
+  background-color: var(--light-green);
+  display: flex;
+  justify-content: center;
+}
+
+.main-table .btn-red {
+  width: 20px;
+  height: 20px;
+  background-color: var(--warm-red);
+  color: white;
+  border: none;
+}
+
+.main-table .btn-green {
+  width: 20px;
+  height: 20px;
+  background-color: var(--warm-green);
+  color: white;
+  border: none;
+}
+
 
 
 @media(max-width: 640px){

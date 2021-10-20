@@ -1,44 +1,72 @@
-{
-  "products " : {
-    "001" : {
+[
+    {
+      "id" : 100,
       "name" : "Manzana",
-      "price" : 15
+      "price" : 15,
+      "img" : "https://images.pexels.com/photos/6157050/pexels-photo-6157050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "002" : {
-      "name" : "piña",
-      "price" : 20
+
+    {
+      "id" : 200,
+      "name" : "Piña",
+      "price" : 20,
+      "img" : "https://images.pexels.com/photos/6157062/pexels-photo-6157062.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "003" : {
+
+   {
+      "id" : 300,
       "name" : "Kiwi",
-      "price" : 25
+      "price" : 25,
+      "img" : "https://images.pexels.com/photos/6156997/pexels-photo-6156997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "004" : {
+
+    {
+      "id" : 400,
       "name" : "Tomate",
-      "price" : 12
+      "price" : 12,
+      "img" : "https://images.pexels.com/photos/4022083/pexels-photo-4022083.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "005" : {
+
+    {
+      "id" : 500,
       "name" : "Sandia",
-      "price" : 35
+      "price" : 35,
+      "img" : "https://images.pexels.com/photos/5946081/pexels-photo-5946081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "006" : {
+
+    {
+      "id" : 600,
       "name" : "Zanahoria",
-      "price" : 23
+      "price" : 23,
+      "img" : "https://images.pexels.com/photos/143133/pexels-photo-143133.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "007" : {
+
+    {
+      "id" : 700,
       "name" : "Cebolla",
-      "price" : 5
+      "price" : 5,
+      "img" : "https://images.pexels.com/photos/4197444/pexels-photo-4197444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "008" : {
+
+    {
+      "id" : 800,
       "name" : "Aguacate",
-      "price" : 55
+      "price" : 55,
+      "img" : "https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "009" : {
+
+    {
+      "id" : 900,
       "name" : "Platano",
-      "price" : 13
+      "price" : 13,
+      "img" : "https://images.pexels.com/photos/2872755/pexels-photo-2872755.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     },
-    "010" : {
+
+    {
+      "id" : 100,
       "name" : "Limon",
-      "price" : 18
+      "price" : 18,
+      "img" : "https://images.pexels.com/photos/1002543/pexels-photo-1002543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
     }
-  }
-}
+
+]
