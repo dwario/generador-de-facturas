@@ -1,0 +1,44 @@
+{
+  "products " : {
+    "001" : {
+      "name" : "Manzana",
+      "price" : 15
+    },
+    "002" : {
+      "name" : "piña",
+      "price" : 20
+    },
+    "003" : {
+      "name" : "Kiwi",
+      "price" : 25
+    },
+    "004" : {
+      "name" : "Tomate",
+      "price" : 12
+    },
+    "005" : {
+      "name" : "Sandia",
+      "price" : 35
+    },
+    "006" : {
+      "name" : "Zanahoria",
+      "price" : 23
+    },
+    "007" : {
+      "name" : "Cebolla",
+      "price" : 5
+    },
+    "008" : {
+      "name" : "Aguacate",
+      "price" : 55
+    },
+    "009" : {
+      "name" : "Platano",
+      "price" : 13
+    },
+    "010" : {
+      "name" : "Limon",
+      "price" : 18
+    }
+  }
+}
